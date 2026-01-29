@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  padding: 40px;
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr auto;
+  gap: 15px;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.job select {
+  padding: 5px;
+}
+
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
