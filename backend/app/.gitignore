@@ -6,5 +6,12 @@ venv/
 __pycache__/
 *.pyc
 
+#SQLite database files
+*.db
+
+#VS Code
+.vscode/
+
 # Environment variables
 .env
+job_applications.db
